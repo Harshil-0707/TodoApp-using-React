@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn-primary{
+       @apply px-2 rounded-md bg-slate-400 text-white h-8 hover:bg-slate-500;
+    }
+}
